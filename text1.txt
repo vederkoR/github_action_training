@@ -1,1 +1,1 @@
-This is the first training text. The current level of modification is 4, written from github console.
+This is the first training text. The current level of modification is 5, written from GITHUB console.
