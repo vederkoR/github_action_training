@@ -1,0 +1,141 @@
+# ============================================================
+# Python / PyCharm / FastAPI / ML .gitignore
+# ============================================================
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+
+# --- JetBrains / PyCharm ---
+.idea/
+*.iml
+*.ipr
+*.iws
+.out/
+# JetBrains Gateway / remote dev
+.idea_modules/
+
+# --- Python bytecode / caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.cover/
+.cache/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.ruff_cache/
+.pytype/
+
+# --- Type checking / tooling ---
+.pyright/
+.pylint.d/
+.tox/
+.nox/
+.hypothesis/
+
+# --- Packaging / builds ---
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+wheelhouse/
+
+# --- Virtual environments ---
+.venv/
+venv/
+ENV/
+env/
+.ENV/
+.env/
+.env.*
+!.env.example
+
+# --- Logs ---
+*.log
+logs/
+log/
+
+# --- FastAPI / Uvicorn / Gunicorn ---
+*.pid
+*.sock
+
+# --- Jupyter / notebooks ---
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# --- Data / ML artifacts (keep raw data out of git by default) ---
+data/
+datasets/
+raw_data/
+processed_data/
+interim/
+output/
+outputs/
+results/
+artifacts/
+models/
+checkpoints/
+runs/
+mlruns/
+wandb/
+lightning_logs/
+tensorboard/
+tb_logs/
+
+# --- Common large/binary formats (often data/artifacts) ---
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.joblib
+*.pkl
+*.pickle
+*.npz
+*.npy
+*.parquet
+*.feather
+
+# --- Matplotlib / figures ---
+figures/
+plots/
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# If you DO want to version small figures, remove the above image/pdf patterns.
+
+# --- SQL / local DB files ---
+*.sqlite
+*.sqlite3
+*.db
+
+# --- Local secrets / credentials ---
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets/
+credentials/
+.aws/
+.gcp/
+
+# --- Docker / compose local overrides ---
+docker-compose.override.yml
+
+# --- VS Code (if used alongside PyCharm) ---
+.vscode/
+
+# --- Misc ---
+*.swp
+*~
